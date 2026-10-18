@@ -6,6 +6,10 @@ CCR-DC searches for a static NeuroEA configuration, calibrates parameter sensiti
 
 本仓库提供精简核心代码：静态配置搜索、敏感度校准、残差控制器训练及配对评测。模型、训练状态、实验结果、论文文件和历史探索脚本不随仓库发布。
 
+**Built on NeuroEA_RL.** This project reuses substantial code from [liw770075-lgtm/NeuroEA_RL](https://github.com/liw770075-lgtm/NeuroEA_RL), including benchmark problem definitions and NeuroEA foundation/operator code, with local modifications and extensions for CCR-DC. The upstream copyright and MIT license are preserved in [licenses/NeuroEA_RL-MIT.txt](licenses/NeuroEA_RL-MIT.txt).
+
+本项目基于上述上游项目开展，问题定义及多处基础框架、算子实现沿用或修改自上游。CCR-DC 在此基础上集成静态先验、约束连续残差控制、训练与评测流程；这些模块的功能划分不代表逐文件的原创性划分。
+
 ## Install
 
 Tested on Windows with Python 3.9, PyTorch 2.8.0 CPU, and the versions in `requirements.txt`.
@@ -49,4 +53,4 @@ For longer runs, increase static and dynamic training budgets to 1,000 episodes,
 
 ## Attribution
 
-The NeuroEA foundation includes code adapted from [NeuroEA_RL](https://github.com/liw770075-lgtm/NeuroEA_RL). Benchmark definitions include local Python ports of [PlatEMO](https://github.com/BIMK/PlatEMO). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `licenses/` for attribution and upstream terms. No single license is assigned to the entire mixed-source repository.
+Substantial code, including problem definitions and the NeuroEA foundation, is reused or adapted from [NeuroEA_RL](https://github.com/liw770075-lgtm/NeuroEA_RL). Some current benchmark files additionally identify adaptations of [PlatEMO](https://github.com/BIMK/PlatEMO); that attribution does not replace NeuroEA_RL as the source of inherited code. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `licenses/` for attribution and upstream terms. No single license is assigned to the entire mixed-source repository.
