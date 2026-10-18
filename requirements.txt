@@ -1,0 +1,6 @@
+# Tested with Python 3.9 and CPU PyTorch. GPU builds can be installed separately.
+numpy==1.24.4
+scipy==1.10.1
+pandas==2.0.3
+matplotlib==3.9.4
+torch==2.8.0
