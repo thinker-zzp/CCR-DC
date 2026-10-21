@@ -1,0 +1,33 @@
+Scope of this license
+=====================
+The MIT license below applies only to original code, documentation, and
+modifications for which thinker-zzp holds copyright in CCR-DC. It does not
+relicense third-party material or grant rights in that material. In particular,
+PlatEMO-derived benchmark code, transformations, and fixed data are excluded
+from this MIT grant and retain their upstream terms. NeuroEA_RL material
+retains its own MIT copyright and notice in licenses/NeuroEA_RL-MIT.txt.
+See LICENSING.md and THIRD_PARTY_NOTICES.md for scope and exceptions. Where a
+file mixes sources, this grant covers only the author's original contributions;
+the third-party terms still apply to the corresponding portions.
+
+MIT License
+
+Copyright (c) 2026 thinker-zzp
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

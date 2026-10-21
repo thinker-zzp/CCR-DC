@@ -1,3 +1,8 @@
+# PlatEMO-derived benchmark material; Copyright (c) 2026 BIMK Group.
+# Research-use and publication citation terms: see licenses/PlatEMO-NOTICE.txt.
+# Excluded from the root MIT grant. Preserve inherited NeuroEA_RL notices too.
+# See LICENSING.md for scope.
+
 import numpy as np
 
 from NeuroEA_GEA.Problems.PROBLEM import Problem

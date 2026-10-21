@@ -1,5 +1,8 @@
 Source: https://github.com/BIMK/PlatEMO
 Checked: 2026-10-18 (upstream README, Copyright section)
+Rechecked: 2026-10-21 (upstream master/README.md, Copyright section)
+Upstream revision inspected: d25e65d1ffba58dbf4d7e1b5259786187d12968a
+Copyright (c) 2026 BIMK Group (local PlatEMO source headers).
 
 The Copyright of the PlatEMO belongs to the BIMK group. You are free to use the PlatEMO for research purposes. All publications which use this platform or any code in the platform should acknowledge the use of "PlatEMO" and reference "Ye Tian, Ran Cheng, Xingyi Zhang, and Yaochu Jin, PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum], IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87".
 

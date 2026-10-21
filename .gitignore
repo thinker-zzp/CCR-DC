@@ -23,6 +23,8 @@
 !/isac/NeuroEA_GEA/Problems/Single_objective_optimization/Simple_SOPs/
 /isac/NeuroEA_GEA/Problems/Single_objective_optimization/Simple_SOPs/*
 !/.gitignore
+!/LICENSE
+!/LICENSING.md
 !/README.md
 !/THIRD_PARTY_NOTICES.md
 !/requirements.txt

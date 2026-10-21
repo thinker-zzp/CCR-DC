@@ -51,6 +51,15 @@ The main CCR-DC configuration uses dimension 10, population 100, 10,000 objectiv
 
 For longer runs, increase static and dynamic training budgets to 1,000 episodes, use three static repeats, five calibration seeds, and larger validation and evaluation sets. The local main experiment selected a controller every 100 episodes using ten validation seeds and evaluated on seeds 1–30 and 260000001–260000030. This small example regenerates inputs and does not reproduce the exact published tables: pretrained policies, archived inputs, and raw experiment records are not distributed here.
 
-## Attribution
+## Licensing and attribution
 
-Substantial code, including problem definitions and the NeuroEA foundation, is reused or adapted from [NeuroEA_RL](https://github.com/liw770075-lgtm/NeuroEA_RL). Some current benchmark files additionally identify adaptations of [PlatEMO](https://github.com/BIMK/PlatEMO); that attribution does not replace NeuroEA_RL as the source of inherited code. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `licenses/` for attribution and upstream terms. No single license is assigned to the entire mixed-source repository.
+**MIT for author-owned contributions; separate third-party terms apply.**
+The root [LICENSE](LICENSE) covers original code, documentation, and modifications
+owned by thinker-zzp. NeuroEA_RL retains its MIT notice. PlatEMO-derived benchmark
+code, transformations, and fixed data retain PlatEMO's research-use and publication
+citation terms and are excluded from the root MIT grant. See
+[LICENSING.md](LICENSING.md) for component and mixed-file boundaries.
+
+作者拥有版权的部分采用 MIT；第三方版权与条款继续保留。整个混合来源仓库及其完整训练评测流程不能统一标为 MIT。
+
+Substantial code, including problem definitions and the NeuroEA foundation, is reused or adapted from [NeuroEA_RL](https://github.com/liw770075-lgtm/NeuroEA_RL). Some current benchmark files additionally identify adaptations of [PlatEMO](https://github.com/BIMK/PlatEMO); that attribution does not replace NeuroEA_RL as the source of inherited code. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `licenses/` for attribution and upstream terms. The repository as a whole is not licensed under MIT.

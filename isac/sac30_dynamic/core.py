@@ -1,5 +1,10 @@
 from __future__ import annotations
 
+# Mixed-source file: author-owned contributions use the root MIT grant.
+# Inherited NeuroEA_RL portions retain licenses/NeuroEA_RL-MIT.txt.
+# PlatEMO-derived BBOB transformations/branches retain the separate research-use
+# and citation terms in licenses/PlatEMO-NOTICE.txt; see LICENSING.md.
+
 from dataclasses import dataclass
 from types import MethodType
 
